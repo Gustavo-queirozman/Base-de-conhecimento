@@ -1,0 +1,31 @@
+Estudo de dart 
+https://dart-tutorial.com/object-oriented-programming/factory-constructor-in-dart/
+
+Entendendo a estrutura do flutter
+O flutter é um framework para construir aplicações multiplataformas, ou seja, realizar
+o build o flututer se adapta para diferentes sistemas operacionais.
+    Gerenciador de dependências do flutter -> https://pub.dev/
+    Onde fica as dependências do projeto, importação de fonte e imagens -> /pubspec.yaml
+    Pasta com arquivos estáticos -> /assets
+    Pasta com o código do projeto -> /lib
+    Arquivo para gerenciar permissões da aplicação -> /android/AndroidManifest.XML
+
+Dicas: 
+.Ao escolher um pacote / dependências não escolha um pacote pouco conhecido. 
+
+Estudo de flutter
+widget -> elemento da interface gráfica
+statefull -> classe que altera seu estado 
+stateless -> classe estática, que não muda seu estado no decorrer do fluxo da aplicação
+
+Dicas: 
+.Escolher o tipo de classe certa (statefull, stateless) ajuda a melhorar a performace da aplicação
+
+
+Entendendo a estrutura do arquivo "main.dart"
+Dentro desse arquivo define o arquivo de inicialização da aplicação e cria as rotas para toda a aplicação
+Toda aplicação passa por esse arquivo, apenas trocando o estado da widget que fica no arquivo main
+
+
+Ideias de arquitetura
+https://medium.com/@vortj/leveling-up-your-flutter-project-structure-fcb7099a3930
